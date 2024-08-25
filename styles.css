@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    background-color: #000;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+header {
+    border-bottom: solid 3px;
+    padding: 1rem;
+    font-weight: 800;
+    animation: teste 3s infinite;
+    margin-bottom: 0.25rem;
+}
+
+header div {
+    height: 3rem;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#video-principal {
+    background-color: #ccc;
+    color: #000;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    margin-right: 5%;
+}
+
+.video iframe {
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+}
+
+#veja-mais {
+    padding: 1rem;
+}
+
+#veja-mais h2 {
+    margin-bottom: 1rem;
+}
+
+.lista-recomendacao {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    overflow-x: scroll;
+
+}
+
+#veja-mais button {
+    width: 354px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#veja-mais img {
+    height: 200px;
+    border: solid 1px #fff;
+    transition: .1s ease-in;
+}
+
+#veja-mais img:hover {
+    height: 175px;
+}
+
+@keyframes teste {
+    0% {
+        color: #00FF46;
+        border-color: #00FF46;
+        font-size: 2rem;
+    }
+    50% {
+        color: #00A02B;
+        border-color: #00A02B;
+        font-size: 1.5rem;
+    }
+    100% {
+        color: #00FF46;
+        border-color: #00FF46;
+        font-size: 2rem;
+    }
+}
